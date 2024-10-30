@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            font-weight: bolder;
+            background-color: beige;
+            
+        }
+        a {
+            color: black;
+            text-decoration: none;
+            
+        }
+        a:visited {
+            color: rgb(150, 38, 38);
+            
+        }
+        a:hover {
+            color: rgb(27, 22, 118);
+            text-decoration: underline;
+
+        }
+        a:active {
+            color:rgb(255, 115, 15)
+        }
+        .importante::before{
+            content: '[→]';
+            color: black;
+        }
+       .importante::after { 
+        content: '[link]';
+        color: black;
+        text-decoration: none;
+        content: '[←]';
+
+       }
+    </style>
+</head>
+<body>
+    <h1>Acessem os links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/@ArthurBragaSilva" target="_blank" class="importante">Youtube</a></li>
+        <li><a href="https://www.instagram.com/arthuur_bragaa/" target="_blank">Instagram</a></li>
+        <li><a href="700410890989600778" target="_blank">discord</a></li>
+    </ul>
+</body>
+</html>

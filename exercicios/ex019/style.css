@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(162, 224, 133, 0.752); 
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(16, 78, 12);
+}
+#PRINCIPAL {
+    text-align: center;
+    background-color: rgb(7, 77, 7);
+    color: rgb(255, 255, 255);
+}
+h2{
+    color: rgb(68, 150, 17);
+}
+p {
+    font-family: initial;
+    font-size: 1.2em;
+    text-indent: 12px;
+}
+.basico { 
+ color: green;
+}
+
+.intermediario {
+  color: green;
+}
+
+.avancado {
+   color:green
+}
+.aprendendo {
+    text-align: center;
+}
